@@ -5,7 +5,7 @@ $(document).ready(function() {
   // const jokeBtn = document.getElementById('jokeBtn')
   
   // // jokeBtn.addEventListener('click', generateJoke)
-   $('#jokeBtn').click(generateJoke())
+   $('#jokeBtn').click(generateJoke)
   
   // generateJoke()
   
@@ -24,7 +24,7 @@ $(document).ready(function() {
   //         //     }
           
           async function generateJoke() {
-  debugger
+  
             const config = {
               headers: {
                 Accept: 'application/json',
